@@ -17,7 +17,7 @@ import islandScene from "../assets/3d/island.glb";
 const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
   const islandRef = useRef();
 
-  const { gl, viewport} = useThree();
+  const { gl, viewport } = useThree();
   const { nodes, materials } = useGLTF(islandScene);
 
   const lastX = useRef(0);
