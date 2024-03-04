@@ -1,0 +1,23 @@
+import css from "./css.svg";
+import git from "./git.svg";
+import github from "./github.svg";
+import html from "./html.svg";
+import javascript from "./javascript.svg";
+import mui from "./mui.svg";
+import nextjs from "./nextjs.svg";
+import nodejs from "./nodejs.svg";
+import react from "./react.svg";
+import sass from "./sass.svg";
+import typescript from "./typescript.svg";
+import twitter from "./twitter.svg";
+import threads from "./threads.svg";
+import arrow from "./arrow.svg";
+import mysql from "./mysql.svg";
+import nuxt from "./nuxt.svg";
+import vue from "./vue.svg";
+import docker from "./docker.svg";
+import vsc from "./vsc.svg";
+import soundon from "./soundon.png";
+import soundoff from "./soundoff.png";
+
+export { arrow, css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, typescript, twitter, threads, mysql, nuxt, vue, docker, vsc, soundon, soundoff };
