@@ -1,36 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
-import {
-  car,
-  contact,
-  css,
-  estate,
-  express,
-  git,
-  github,
-  html,
-  javascript,
-  linkedin,
-  mongodb,
-  motion,
-  mui,
-  nextjs,
-  nodejs,
-  pricewise,
-  react,
-  redux,
-  sass,
-  snapgram,
-  summiz,
-  tailwindcss,
-  threads,
-  typescript,
-  mysql,
-  nuxt,
-  vue,
-  docker,
-  vsc,
-  twitter,
-} from "../assets/icons";
+import { css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, threads, typescript, mysql, nuxt, vue, docker, vsc, twitter } from "../assets/icons";
 
 export const skills = [
   {
