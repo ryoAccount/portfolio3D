@@ -11,7 +11,7 @@ const Footer = () => {
         <p>
           © 2024 Adrian Hajdin.
           <span className="hidden">This portfolio template create by Adrian Hajdin.</span>
-          <span className="hidden">I'm borrowing it and I built this site.</span>
+          <span className="hidden">I&apos;m borrowing it and I built this site.</span>
           <span className="hidden">I have no intention of steal.</span>
         </p>
 
