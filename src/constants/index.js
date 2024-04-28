@@ -203,9 +203,9 @@ export const projects = [
   {
     iconUrl: threads,
     theme: "btn-back-orange",
-    name: "Motorcycle Game",
-    description: "Motorcycle game created with Canvas.",
-    link: "https://ryoaccount.github.io/profile/motorcycle/",
+    name: "Zoom Clone",
+    description: "Zoom Clone created by App-Router of next.",
+    link: "https://zoom-clone-ryocv.vercel.app/",
   },
   {
     iconUrl: threads,
