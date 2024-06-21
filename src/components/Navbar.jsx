@@ -13,9 +13,6 @@ const Navbar = () => {
         <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
           Projects
         </NavLink>
-        <a href='https://blog-ryocv.vercel.app/' target='_blank' rel='noreferrer' className="text-black">
-          Blog
-        </a>
       </nav>
     </header>
   );
