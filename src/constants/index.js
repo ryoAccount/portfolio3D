@@ -97,59 +97,14 @@ export const experiences = [
     ],
   },
   {
-    title: "Batch Developer",
-    company_name: "Restaurant search",
+    title: "Web Engineer / Batch Developer",
+    company_name: "Venture System integrator",
     iconBg: "#fbc3bc",
-    date: "October 2016 - July 2017",
+    date: "October 2016 - December 2021",
     points: [
-      "Design, develop, and maintain a system that allows you to search and reserve restaurants such as restaurants and taverns.",
-      "As a member, I mainly developed a batch function that aggregates access logs and delivers emails.",
-      "I felt it was a free and easy-to-work environment, but I was quickly transferred.",
-    ],
-  },
-  {
-    title: "Team Manager",
-    company_name: "EC site",
-    iconBg: "#b7e4c7",
-    date: "August 2017 - Jun 2018",
-    points: [
-      "With the expiration of the license of the search engine (GoogleSearchAppliance) used on the EC site, switched to a new search engine.",
-      "As the leader of a team of 15 people, I was in charge of managing the progress of members, defining requirements, and collaborating and coordinating with other teams. To be honest, it was a very painful project mentally.",
-    ],
-  },
-  {
-    title: "Backend Engineer",
-    company_name: "Exchange transaction",
-    iconBg: "#e29a06",
-    date: "July 2018 - July 2019",
-    points: [
-      "Newly developed a system that provides foreign exchange trading functions as an ASP service.",
-      "I was in charge of developing a component called a gateway, which is responsible for sending and receiving telegrams to and from the Tokyo Financial Exchange.",
-      "As the leader of a team of three, I was responsible for server configuration reviews, scheduling with PMs, progress management, quality control, implementation, testing, and reviews.",
-    ],
-  },
-  {
-    title: "Frontend Engineer",
-    company_name: "Reservation management ledger",
-    iconBg: "#24e94a",
-    date: "August 2019 - February 2021",
-    points: [
-      "The reservation management ledger system for restaurants has been renovated.",
-      "As a sub-leader, I was in charge of managing 3 members. I used Vue.js to develop a screen that adopted an atomic design.",
-      "I built an emulator environment and developed a screen that supports multiple browsers and multiple devices.",
-      "The team leader was excellent and interesting, and I admired him a little. I wanted to work like that person.",
-    ],
-  },
-  {
-    title: "Web Engineer",
-    company_name: "Career change support site",
-    iconBg: "#e904e0",
-    date: "March 2021 - December 2021",
-    points: [
-      "Develop a career change support site for nurses or caregivers. I implemented a user dashboard using Laravel's authentication feature.",
-      "As the person in charge of the project, I decided the system specifications and worked closely with other teams.",
-      "Although I was an outsider, I was given a task with unnecessary responsibility.",
-      "I met PHP for the first time.",
+      "I have worked 5 projects as a web engineer and a team leader.",
+      "I could do what I want to about half percent. To be honest, I didn't believe this company the bottom of my heart.",
+      "But I could meet Vue.js because I worked here and I sometimes say that my favorite language is Vue.js",
     ],
   },
   {
@@ -241,5 +196,12 @@ export const projects = [
     name: "PUYO PUYO",
     description: "PUYO PUYO implemented in Javascript. Source code is open to the public.",
     link: "https://ryoaccount.github.io/profile/puyopuyo/",
+  },
+  {
+    iconUrl: threads,
+    theme: "btn-back-blue",
+    name: "Sonic Run",
+    description: "Get high score and rank S while Sonic runs.",
+    link: "https://sonic-ryocv.vercel.app/",
   },
 ];
