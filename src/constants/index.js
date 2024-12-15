@@ -1,4 +1,4 @@
-import { css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, threads, typescript, mysql, nuxt, vue, docker, vsc, twitter } from "../assets/icons";
+import { css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, threads, typescript, mysql, nuxt, vue, docker, vsc, twitter, aws, datadog } from "../assets/icons";
 
 export const skills = [
   {
@@ -81,11 +81,21 @@ export const skills = [
     name: "Visual Studio Code",
     type: "Tools",
   },
+  {
+    imageUrl: aws,
+    name: "AWS",
+    type: "Tools",
+  },
+  {
+    imageUrl: datadog,
+    name: "Data Dog",
+    type: "Tools",
+  },
 ];
 
 export const experiences = [
   {
-    title: "Programmer / System Engineer",
+    title: "Programmer for Java",
     company_name: "System integrator",
     iconBg: "#accbe1",
     date: "April 2010 - September 2016",
@@ -97,7 +107,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Web Engineer / Batch Developer",
+    title: "Engineer for FrontEnd and Backend",
     company_name: "Venture System integrator",
     iconBg: "#fbc3bc",
     date: "October 2016 - December 2021",
@@ -108,8 +118,8 @@ export const experiences = [
     ],
   },
   {
-    title: "Web Engineer",
-    company_name: "Platform for freelance engineers and creators",
+    title: "Engineer for FrontEnd, Backend and Infrastructure",
+    company_name: "Platform for freelancers and job changers",
     iconBg: "#04e9e0",
     date: "January 2022 - current",
     points: [

@@ -17,7 +17,9 @@ import nuxt from "./nuxt.svg";
 import vue from "./vue.svg";
 import docker from "./docker.svg";
 import vsc from "./vsc.svg";
+import aws from "./aws.svg";
+import datadog from "./datadog.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 
-export { arrow, css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, typescript, twitter, threads, mysql, nuxt, vue, docker, vsc, soundon, soundoff };
+export { arrow, css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, typescript, twitter, threads, mysql, nuxt, vue, docker, vsc, aws, datadog, soundon, soundoff };
