@@ -118,14 +118,14 @@ export const experiences = [
     ],
   },
   {
-    title: "Engineer for FrontEnd, Backend and Infrastructure",
+    title: "Engineer for FrontEnd, Backend, Infrastructure and Security",
     company_name: "Platform for freelancers and job changers",
     iconBg: "#04e9e0",
     date: "January 2022 - current",
     points: [
       "Develop agent services for freelance engineers and creators. I'm developing a backend / frontend / micro services with TypeScript. We practice Scrum in teams of up to 10 people.",
       "I was able to do what I wanted to do, but I still had a hard time.",
-      "I became mentally ill in exchange for my personal growth.",
+      "However, I get new responsibilities regarding security.",
     ],
   },
 ];

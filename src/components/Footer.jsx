@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import { socialLinks } from "../constants";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
 
       <div className='footer-container'>
         <p>
-          © 2024 RYO.
+          © {currentYear} RYO.
           <span className="hidden">This portfolio template create by Adrian Hajdin.</span>
           <span className="hidden">I&apos;m borrowing it and I built this site.</span>
           <span className="hidden">I have no intention of steal.</span>
