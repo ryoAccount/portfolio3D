@@ -23,6 +23,9 @@ const About = () => {
         <p>
           I have been working for several companies over ten years and experienced frontend, backend and infrastructures.
         </p>
+        <p>
+          Recently, I have focused on Cyber Security such as cloud, governance and vulnerabilities now.
+        </p>
       </div>
 
       <div className='py-10 flex flex-col'>

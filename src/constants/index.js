@@ -1,4 +1,4 @@
-import { css, git, github, html, javascript, mui, nextjs, nodejs, react, sass, threads, typescript, mysql, nuxt, vue, docker, vsc, twitter, aws, datadog } from "../assets/icons";
+import { css, git, github, html, javascript, nextjs, nodejs, react, threads, typescript, mysql, nuxt, vue, docker, vsc, twitter, aws, datadog, newrelic, openid, terraform } from "../assets/icons";
 
 export const skills = [
   {
@@ -32,11 +32,6 @@ export const skills = [
     type: "Database",
   },
   {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
@@ -59,11 +54,6 @@ export const skills = [
   {
     imageUrl: vue,
     name: "Vue",
-    type: "Frontend",
-  },
-  {
-    imageUrl: sass,
-    name: "Sass",
     type: "Frontend",
   },
   {
@@ -91,6 +81,21 @@ export const skills = [
     name: "Data Dog",
     type: "Tools",
   },
+  {
+    imageUrl: newrelic,
+    name: "New Relic",
+    type: "Tools",
+  },
+  {
+    imageUrl: openid,
+    name: "OpenID Connect",
+    type: "Tools",
+  },
+  {
+    imageUrl: terraform,
+    name: "Terraform",
+    type: "Backend",
+  },
 ];
 
 export const experiences = [
@@ -100,7 +105,7 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "April 2010 - September 2016",
     points: [
-      "Develop a system that supports contracts, billing, and logistics operations for businesses that provide mobile WiFi.",
+      "Developed a system that supports contracts, billing, and logistics operations for businesses that provide mobile WiFi.",
       "I used to program with Java and Oracle DB.",
       "Although I experienced many painful experiences, I was able to develop my own sense of value in my work.",
       "This project has already been completed.",
@@ -112,21 +117,28 @@ export const experiences = [
     iconBg: "#fbc3bc",
     date: "October 2016 - December 2021",
     points: [
-      "I have worked 5 projects as a web engineer and a team leader.",
-      "I could do what I want to about half percent. To be honest, I didn't believe this company the bottom of my heart.",
-      "But I could meet Vue.js because I worked here and I sometimes say that my favorite language is Vue.js",
+      "I had worked 5 projects as a web engineer and a team leader.",
+      "I was able to do what I want to about half percent. To be honest, I couldn't believe this company the bottom of my heart.",
+      "Fortunately, I met Vue.js because I worked here and I sometimes say my favorite language is Vue.js",
     ],
   },
   {
-    title: "Engineer for FrontEnd, Backend, Infrastructure and Security",
+    title: "Engineer for Full Stack",
     company_name: "Platform for freelancers and job changers",
     iconBg: "#04e9e0",
-    date: "January 2022 - current",
+    date: "January 2022 - March 2026",
     points: [
-      "Develop agent services for freelance engineers and creators. I'm developing a backend / frontend / micro services with TypeScript. We practice Scrum in teams of up to 10 people.",
+      "Developed a platform for freelance engineers and creators. I'm developing a backend / frontend / micro services with TypeScript. We practice Scrum in teams of up to 10 people.",
       "I was able to do what I wanted to do, but I still had a hard time.",
-      "However, I get new responsibilities regarding security.",
+      "I got new responsibilities regarding authentication and security.",
     ],
+  },
+  {
+    title: "Security Consultant",
+    company_name: "Insurance company",
+    iconBg: "#8067f1",
+    date: "April 2026 - current",
+    points: ["I started working as a security consultant for an insurance company. I am responsible for supporting DevSecOps practices."],
   },
 ];
 
